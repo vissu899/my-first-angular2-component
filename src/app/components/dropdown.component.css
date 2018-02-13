@@ -1,0 +1,42 @@
+.dropdown-container input {
+  position: relative;
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.dropdown-container ul {
+   position: absolute;
+   text-align: left;
+   left: -31px;
+   top: 102px;
+}
+
+.dropdown-container ul li {
+   width: 200px;
+    border: 1px solid #ccc;
+   list-style-type: none;
+   border-bottom: 1px solid #ccc;
+   padding: 8px;
+   cursor: pointer;
+}
+
+.dropdown-container ul li:hover {
+  background: #ccc;
+}
+
+.options {
+  position: relative;
+  right: 35px
+}
+
+.clear-option, .open-option {
+  font-size: 14px;
+  cursor: pointer;
+  color: #555;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
